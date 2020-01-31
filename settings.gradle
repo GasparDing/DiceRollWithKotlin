@@ -1,0 +1,2 @@
+rootProject.name='AndroidDojoWithKotlin2'
+include ':app'
