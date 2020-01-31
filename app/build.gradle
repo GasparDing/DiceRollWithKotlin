@@ -2,8 +2,9 @@ apply plugin: 'com.android.application'
 apply plugin: 'kotlin-android'
 apply plugin: 'kotlin-android-extensions'
 
+// android API(SDK) 版本會對應android 版本，例：API28 對應 Android 9(Pie)
 android {
-    compileSdkVersion 29
+    compileSdkVersion 29    // 開發時的API版本，決定可以使用的功能，也是本程式可支援的最新版API版本
     buildToolsVersion "29.0.2"
 
     defaultConfig {
